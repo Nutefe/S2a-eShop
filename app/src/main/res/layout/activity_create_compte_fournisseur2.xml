@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type entreprise"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="8dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Nom de l'entreprise"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="textAutoComplete"
+                android:textSize="16dp"
+                android:maxLines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutNum"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="SIRET/SIREN/RCS"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:maxLines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Adresse de l'entreprise"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextAdresse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:maxLines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pays"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerPays"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Region"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerRegion"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="8dp"/>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputLayoutTva"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textColorHint="@android:color/black"
+            android:hint="TVA"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextTva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:maxLines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/valide_login_back"
+            android:text="SOUMETTRE"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/forgetPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/passe_oublier"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

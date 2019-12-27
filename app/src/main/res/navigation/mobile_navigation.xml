@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.esgis.s2aeshop.fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.esgis.s2aeshop.fragments.StoresFragment"
+        android:label="@string/nav_stores"
+        tools:layout="@layout/fragment_stores" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.esgis.s2aeshop.fragments.LoginFragment"
+        android:label="@string/nav_login"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.esgis.s2aeshop.fragments.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.esgis.s2aeshop.fragments.TrackFragment"
+        android:label="@string/nav_track"
+        tools:layout="@layout/fragment_track" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.esgis.s2aeshop.fragments.HelpFragment"
+        android:label="@string/nav_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

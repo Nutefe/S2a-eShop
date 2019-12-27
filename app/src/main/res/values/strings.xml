@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">S2a eShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">S2A eShop</string>
+    <string name="nav_header_subtitle">WELCOME / BIENVENUE</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_home">Accueil</string>
+    <string name="nav_stores">ALL</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_track">Track Orders</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_help">About US/ Help</string>
+
+<!--    login page-->
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_createaccount">Créer un nouveau compte ?</string>
+    <string name="chkbox">Remenber Me</string>
+    <string name="button_forgetlogin">Forget Login</string>
+    <string name="passe_oublier">Mot de passe oublié</string>
+
+<!--settings page-->
+    <string name="text_language">Language</string>
+    <string name="button_changepsswd">Change password</string>
+    <string name="text_notifications">receive Notifications</string>
+    <string name="button_addcard">Add card informations</string>
+
+<!--    track page-->
+    <string name="text_login2">Login/log out</string>
+    <string name="text_useroremail">Email ou Username</string>
+    <string name="text_numerocommande">Order or delivery number</string>
+    <string name="text_submit">Submit</string>
+
+<!--    help page-->
+    <string name="text_subject">Concern Subject</string>
+    <string name="text_comment">COMMENT</string>
+    <string name="text_email">Email</string>
+    <string name="text_send">Send </string>
+
+
+</resources>
